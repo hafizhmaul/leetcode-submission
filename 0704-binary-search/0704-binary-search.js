@@ -3,6 +3,9 @@
  * @param {number} target
  * @return {number}
  */
+
+// BUAT PAKAI ALGORITMA INI ARRAY HARUS DALAM KONDISI SUDAH TERURUT
+
 var search = function(nums, target) {
     let left = 0; //tentukan index paling awal
     let right = nums.length-1; //tentukan index paling akhir
