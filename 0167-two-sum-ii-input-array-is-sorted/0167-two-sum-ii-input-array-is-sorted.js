@@ -3,6 +3,9 @@
  * @param {number} target
  * @return {number[]}
  */
+
+//karena arraynya sudah terurut, jadi bisa pakai binary search
+
 var twoSum = function(numbers, target) {
     let left = 0, right = numbers.length - 1;
   
